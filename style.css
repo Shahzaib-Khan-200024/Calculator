@@ -1,0 +1,99 @@
+body {
+    background-color: #383535; /* Black background like in the image */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    width: 350px;
+    background-color: #1c1c1e; /* Dark gray background for calculator body */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .input {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    margin: 10px;
+    background-color: #333; /* Default button background (dark gray) */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button.orange {
+    background-color: #f09a36; /* Orange buttons for operations */
+    color: #fff;
+  }
+  
+  .button.gray {
+    background-color: #a5a5a5; /* Gray buttons for Clear and Percentage */
+    color: #000;
+  }
+  
+  .button.double {
+    width: 150px; /* Double width for zero button */
+  }
+  
+  .button:active {
+    background-color: #555; /* Slightly lighter background on click */
+  }
+  
+  /* General Button Styling */
+  .button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    margin: 10px;
+    background-color: #333; /* Default button background (dark gray) */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button.orange {
+    background-color: #f09a36; /* Orange buttons for operators like +, =, etc. */
+    color: #fff;
+  }
+  
+  .button.gray {
+    background-color: #d4d4d2; /* Light gray color for C, %, etc. */
+    color: #000; /* Black text for the gray buttons */
+  }
+  
+  .button.double {
+    width: 150px; /* Double width for zero button */
+  }
+  
+  .button:active {
+    background-color: #555; /* Lighter background on click */
+  }
+  
+  /* Specific Button Classes for C, %, etc. */
+  .button-clear, .button-percent {
+    background-color: #d4d4d2; /* Light gray background */
+    color: black; /* Black text for these buttons */
+  }
+  
